@@ -48,8 +48,8 @@ variable that kraken will use.
 `providerConfigs.authentication.accessSecret` that you can set to the literal value or to an environment
 variable that kraken will use.
 *  **AWS credentials file**: paired with the below profile. The field is named
-`providerConfigs.authentication.credentialsFile`. This file and path must exist bind-mounted to /root
-inside the container, (${HOME}/.aws/credentials).
+`providerConfigs.authentication.credentialsFile`. This file and path must exist bind-mounted to `/root`
+inside the container, (`${HOME}/.aws/credentials`).
 *  **AWS credentials profile**: used to select the credentials set from the credentials
 file above.
 
@@ -134,7 +134,7 @@ using the correct version of the relevant CLI for your cluster.
 `kubectl` (http://kubernetes.io/docs/user-guide/kubectl-overview/), a CLI for working with a Kubernetes cluster, is
 used for deploying applications, checking system status and more. See the linked documentation for more details.
 
-`Jelm` (https://github.com/kubernetes/helm) is a CLI for packaging and deploying applications to Kubernetes. See the linked documentation for more details.
+`Helm` (https://github.com/kubernetes/helm) is a CLI for packaging and deploying applications to Kubernetes. See the linked documentation for more details.
 
 ### Example usage - kraken tool kubectl
 
